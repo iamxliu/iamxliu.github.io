@@ -6,14 +6,23 @@
     <description>Recent content in Posts on 星星的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Mon, 18 Apr 2022 08:24:21 +0800</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Apr 2022 09:38:00 +0800</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
+      <title>第二篇博客</title>
+      <link>http://example.org/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Mon, 18 Apr 2022 09:38:00 +0800</pubDate>
+      
+      <guid>http://example.org/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <description>成功了 你也试一下！</description>
+    </item>
+    
+    <item>
+      <title>博客开通了</title>
       <link>http://example.org/posts/my-first-post/</link>
       <pubDate>Mon, 18 Apr 2022 08:24:21 +0800</pubDate>
       
       <guid>http://example.org/posts/my-first-post/</guid>
-      <description>大家好 我的博客开通了，欢迎大家。</description>
+      <description>大家好 我的博客开通了，欢迎大家观看。</description>
     </item>
     
   </channel>
