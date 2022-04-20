@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>星星的博客</title>
-    <link>https://iamxliu.github.io/cd/</link>
+    <link>http://initialdynamics.xyz/</link>
     <description>Recent content on 星星的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Wed, 20 Apr 2022 16:59:46 +0800</lastBuildDate><atom:link href="https://iamxliu.github.io/cd/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Apr 2022 16:59:46 +0800</lastBuildDate><atom:link href="http://initialdynamics.xyz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Collection知识整理</title>
-      <link>https://iamxliu.github.io/cd/posts/collection%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/</link>
+      <link>http://initialdynamics.xyz/posts/collection%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/</link>
       <pubDate>Wed, 20 Apr 2022 16:59:46 +0800</pubDate>
       
-      <guid>https://iamxliu.github.io/cd/posts/collection%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/</guid>
+      <guid>http://initialdynamics.xyz/posts/collection%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/</guid>
       <description> Collection是接口，无法实现，list有序可重复，被ArrayList和LinkedList继承。set无序不重复，被HashSet和TreeSet继承； Map 被HashMap（无序）和TreeMap（有序）继承 HashSet完全随机，LinkedHashSet和插入的顺序一样，TreeSet是有序集合 实现comparable接口 同一对象必须返回相同的hashcode 两个对象的equals 返回true, 必须返回相同的hashcode 两个对象不相等，也可能返回相同的hashcode keySet 和 HashMap 是同步的，是同一组数据 HashMap 的key 是HashSet Guava寻找更多collection的实现 哈希是单向映射 使用HashSet对ArrayList去重，HashSet利用了hashCode，提高了效率  </description>
     </item>
     
     <item>
       <title>包冲突</title>
-      <link>https://iamxliu.github.io/cd/posts/%E5%8C%85%E5%86%B2%E7%AA%81/</link>
+      <link>http://initialdynamics.xyz/posts/%E5%8C%85%E5%86%B2%E7%AA%81/</link>
       <pubDate>Tue, 19 Apr 2022 21:16:03 +0800</pubDate>
       
-      <guid>https://iamxliu.github.io/cd/posts/%E5%8C%85%E5%86%B2%E7%AA%81/</guid>
+      <guid>http://initialdynamics.xyz/posts/%E5%8C%85%E5%86%B2%E7%AA%81/</guid>
       <description>包冲突解决办法  新增dependency依赖 去除  &amp;lt;exclusions&amp;gt;  &amp;lt;exclusion&amp;gt;  &amp;lt;groupId&amp;gt; &amp;lt;/groupId&amp;gt;  &amp;lt;artifactId&amp;gt; &amp;lt;/artifactId&amp;gt;  &amp;lt;/exclusion&amp;gt; &amp;lt;/exclutions&amp;gt; maven helper exclude不需要的类  包引用规则  传递性依赖 绝对不允许最终的classpath出现同名不同版本的jar包 同名不同版本引用规则:最近的胜出/路径短的胜出/靠前的胜出 可以用mvn dependency:tree来找出依赖树  scope含义: test: 仅适用于测试文件 compile: 测试文件和main文件均使用 provided： 仅编译可用</description>
     </item>
     
     <item>
       <title>如何用Hugo搭建个人博客</title>
-      <link>https://iamxliu.github.io/cd/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <link>http://initialdynamics.xyz/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Tue, 19 Apr 2022 09:20:22 +0800</pubDate>
       
-      <guid>https://iamxliu.github.io/cd/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>http://initialdynamics.xyz/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
       <description>Hugo操作流程 1. brew install hugo 2. hugo version 3. hugo new site iamxliu.github.io-generator 4. cd iamxliu.github.io-generator 5. git init 6. git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke 7. echo theme = \&amp;#34;ananke\&amp;#34; &amp;gt;&amp;gt; config.toml 8. hugo new posts/my-first-post.md  draft: false  9. hugo server -D 10. Open up config.toml in a text editor  zh-Hans http://initialdynamics.xyz/ https://iamxliu.github.io/  11. hugo -D 12. 新建.gitignore文件 加入/public/ 13. cd public 14. git add . 15.</description>
     </item>
     
     <item>
       <title>第二篇博客</title>
-      <link>https://iamxliu.github.io/cd/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <link>http://initialdynamics.xyz/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Mon, 18 Apr 2022 09:38:00 +0800</pubDate>
       
-      <guid>https://iamxliu.github.io/cd/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>http://initialdynamics.xyz/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
       <description>成功了 你也试一下！</description>
     </item>
     
     <item>
       <title>博客开通了</title>
-      <link>https://iamxliu.github.io/cd/posts/my-first-post/</link>
+      <link>http://initialdynamics.xyz/posts/my-first-post/</link>
       <pubDate>Mon, 18 Apr 2022 08:24:21 +0800</pubDate>
       
-      <guid>https://iamxliu.github.io/cd/posts/my-first-post/</guid>
+      <guid>http://initialdynamics.xyz/posts/my-first-post/</guid>
       <description>大家好 我的博客开通了，欢迎大家观看。</description>
     </item>
     
