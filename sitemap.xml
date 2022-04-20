@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://iamxliu.github.io/cd/posts/</loc>
-    <lastmod>2022-04-19T21:16:03+08:00</lastmod>
+    <loc>https://iamxliu.github.io/cd/posts/collection%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/</loc>
+    <lastmod>2022-04-20T16:59:46+08:00</lastmod>
   </url><url>
-    <loc>https://iamxliu.github.io/cd/posts/%E5%8C%85%E5%86%B2%E7%AA%81/</loc>
-    <lastmod>2022-04-19T21:16:03+08:00</lastmod>
+    <loc>https://iamxliu.github.io/cd/posts/</loc>
+    <lastmod>2022-04-20T16:59:46+08:00</lastmod>
   </url><url>
     <loc>https://iamxliu.github.io/cd/</loc>
+    <lastmod>2022-04-20T16:59:46+08:00</lastmod>
+  </url><url>
+    <loc>https://iamxliu.github.io/cd/posts/%E5%8C%85%E5%86%B2%E7%AA%81/</loc>
     <lastmod>2022-04-19T21:16:03+08:00</lastmod>
   </url><url>
     <loc>https://iamxliu.github.io/cd/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>

@@ -118,12 +118,36 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/cd/posts/collection%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/" class="color-inherit dim link">
+            Collection知识整理
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+           Collection是接口，无法实现，list有序可重复，被ArrayList和LinkedList继承。set无序不重复，被HashSet和TreeSet继承； Map 被HashMap（无序）和TreeMap（有序）继承 HashSet完全随机，LinkedHashSet和插入的顺序一样，TreeSet是有序集合 实现comparable接口 同一对象必须返回相同的hashcode 两个对象的equals 返回true, 必须返回相同的hashcode 两个对象不相等，也可能返回相同的hashcode keySet 和 HashMap 是同步的，是同一组数据 HashMap 的key 是HashSet Guava寻找更多collection的实现 哈希是单向映射 使用HashSet对ArrayList去重，HashSet利用了hashCode，提高了效率  
+        </div>
+          <a href="/cd/posts/collection%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="/cd/posts/%E5%8C%85%E5%86%B2%E7%AA%81/" class="color-inherit dim link">
             包冲突
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          
+          包冲突解决办法  新增dependency依赖 去除  &lt;exclusions&gt;  &lt;exclusion&gt;  &lt;groupId&gt; &lt;/groupId&gt;  &lt;artifactId&gt; &lt;/artifactId&gt;  &lt;/exclusion&gt; &lt;/exclutions&gt; maven helper exclude不需要的类  包引用规则  传递性依赖 绝对不允许最终的classpath出现同名不同版本的jar包 同名不同版本引用规则:最近的胜出/路径短的胜出/靠前的胜出 可以用mvn dependency:tree来找出依赖树  scope含义: test: 仅适用于测试文件 compile: 测试文件和main文件均使用 provided： 仅编译可用
         </div>
           <a href="/cd/posts/%E5%8C%85%E5%86%B2%E7%AA%81/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
@@ -158,36 +182,18 @@
 
           </div>
         
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/cd/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/" class="color-inherit dim link">
-            第二篇博客
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          成功了 你也试一下！
-        </div>
-          <a href="/cd/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
       </section>
 
       
       <section class="w-100">
         <h1 class="f3">More</h1>
         
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/cd/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/" class="link black dim">
+              第二篇博客
+            </a>
+          </h2>
         
           <h2 class="f5 fw4 mb4 dib mr3">
             <a href="/cd/posts/my-first-post/" class="link black dim">

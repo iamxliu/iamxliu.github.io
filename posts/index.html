@@ -93,12 +93,29 @@
   <div class="bg-white mb3 pa4 gray overflow-hidden">
     <span class="f6 db">Posts</span>
     <h1 class="f3 near-black">
+      <a href="/cd/posts/collection%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/" class="link black dim">
+        Collection知识整理
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+       Collection是接口，无法实现，list有序可重复，被ArrayList和LinkedList继承。set无序不重复，被HashSet和TreeSet继承； Map 被HashMap（无序）和TreeMap（有序）继承 HashSet完全随机，LinkedHashSet和插入的顺序一样，TreeSet是有序集合 实现comparable接口 同一对象必须返回相同的hashcode 两个对象的equals 返回true, 必须返回相同的hashcode 两个对象不相等，也可能返回相同的hashcode keySet 和 HashMap 是同步的，是同一组数据 HashMap 的key 是HashSet Guava寻找更多collection的实现 哈希是单向映射 使用HashSet对ArrayList去重，HashSet利用了hashCode，提高了效率  
+    </div>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
       <a href="/cd/posts/%E5%8C%85%E5%86%B2%E7%AA%81/" class="link black dim">
         包冲突
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      
+      包冲突解决办法  新增dependency依赖 去除  &lt;exclusions&gt;  &lt;exclusion&gt;  &lt;groupId&gt; &lt;/groupId&gt;  &lt;artifactId&gt; &lt;/artifactId&gt;  &lt;/exclusion&gt; &lt;/exclutions&gt; maven helper exclude不需要的类  包引用规则  传递性依赖 绝对不允许最终的classpath出现同名不同版本的jar包 同名不同版本引用规则:最近的胜出/路径短的胜出/靠前的胜出 可以用mvn dependency:tree来找出依赖树  scope含义: test: 仅适用于测试文件 compile: 测试文件和main文件均使用 provided： 仅编译可用
     </div>
   </div>
 </div>
