@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://initialdynamics.xyz/posts/collection%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/</loc>
-    <lastmod>2022-04-20T16:59:46+08:00</lastmod>
-  </url><url>
     <loc>http://initialdynamics.xyz/posts/</loc>
-    <lastmod>2022-04-20T16:59:46+08:00</lastmod>
+    <lastmod>2022-04-30T20:57:12+08:00</lastmod>
+  </url><url>
+    <loc>http://initialdynamics.xyz/posts/%E5%A4%9A%E7%BA%BF%E7%A8%8B/</loc>
+    <lastmod>2022-04-30T20:57:12+08:00</lastmod>
   </url><url>
     <loc>http://initialdynamics.xyz/</loc>
+    <lastmod>2022-04-30T20:57:12+08:00</lastmod>
+  </url><url>
+    <loc>http://initialdynamics.xyz/posts/collection%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/</loc>
     <lastmod>2022-04-20T16:59:46+08:00</lastmod>
   </url><url>
     <loc>http://initialdynamics.xyz/posts/%E5%8C%85%E5%86%B2%E7%AA%81/</loc>

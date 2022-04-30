@@ -6,7 +6,17 @@
     <description>Recent content on 星星的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Wed, 20 Apr 2022 16:59:46 +0800</lastBuildDate><atom:link href="http://initialdynamics.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Apr 2022 20:57:12 +0800</lastBuildDate><atom:link href="http://initialdynamics.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>多线程</title>
+      <link>http://initialdynamics.xyz/posts/%E5%A4%9A%E7%BA%BF%E7%A8%8B/</link>
+      <pubDate>Sat, 30 Apr 2022 20:57:12 +0800</pubDate>
+      
+      <guid>http://initialdynamics.xyz/posts/%E5%A4%9A%E7%BA%BF%E7%A8%8B/</guid>
+      <description>#多线程
+ new Thread(需要执行的任务).start() 每多开一个线程，就多一个执行流 方法栈（局部变量）是线程私有的 静态变量/类变量是被所有线程共存的 对于IO密集型任务极其有用 多线程主要是多个任务可以同时执行（从表面上看），主要是因为CPU执行任务太快，需要充分利用cpu，其实对于CPU来说还是挨个执行，但是没有确定顺序  </description>
+    </item>
+    
     <item>
       <title>Collection知识整理</title>
       <link>http://initialdynamics.xyz/posts/collection%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/</link>
